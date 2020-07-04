@@ -21,4 +21,4 @@ COPY ./ipmi_remote.yml /usr/config.yml
 
 EXPOSE 9290
 ENTRYPOINT ["/bin/ipmi_exporter"]
-CMD ["--config.file", "/usr/config.yml"]
+CMD ["--config.file", "/usr/local/bin/config.yml"]
